@@ -1,0 +1,237 @@
+.swal2-icon {
+    width: 65px !important;
+    height: 65px !important;
+}
+div:where(.swal2-icon).swal2-error [class^="swal2-x-mark-line"] {
+    width: 33px !important;
+    height: 4px !important;
+    top: 31px !important;
+}
+div:where(.swal2-icon).swal2-warning,
+div:where(.swal2-icon).swal2-question,
+div:where(.swal2-icon).swal2-error {
+    border-color: #4c776d !important;
+    color: #4c776d !important;
+}
+.swal2-x-mark-line-left,
+.swal2-x-mark-line-right {
+    background-color: #4c776d !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    background-color: #aec6c0 !important;
+}
+.swal2-title {
+    font-size: 22px !important;
+    margin-bottom: 0px !important;
+}
+div:where(.swal2-container) button:where(.swal2-styled):focus {
+    outline: none !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm:focus {
+    box-shadow: none !important;
+}
+.voucher-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.voucher-details p {
+    margin: 0;
+    padding: 0;
+}
+.voucher-stats .redeemed-vouchers-report:first-child,
+.voucher-stats .active-vouchers-report:first-child,
+.voucher-stats .expired-vouchers-report:first-child,
+.voucher-stats .partialredeemed-vouchers-report:first-child {
+    margin-bottom: -5px !important;
+}
+
+.voucher-code-value,
+.voucher-applied-value,
+.voucher-remaining-value {
+    float: right;
+}
+.fee {
+    margin-top: 15px;
+}
+.voucher-remaining-display {
+    display: flex;
+    justify-content: space-between;
+}
+.order-message {
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+.voucher-remaining-balance {
+    margin-bottom: 0px !important;
+}
+.remaining-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+dl.variation {
+    line-height: 1.5 !important;
+    margin-top: 5px !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 14px !important;
+}
+.header-cart dl.variation {
+    display: none;
+}
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .voucher-product-template .add-to-registry-btn a.elementor-button {
+        width: 100% !important;
+    }
+    .voucher-product-template .yith-wcwl-add-button a,
+    .voucher-product-template .yith-wcwl-wishlistaddedbrowse,
+    .voucher-product-template .yith-wcwl-wishlistexistsbrowse,
+    .voucher-product-template .add-to-registry-btn a,
+    .voucher-product-template .single_add_to_cart_button.button,
+    .voucher-product-template
+        .delivery-information-box
+        .elementor-heading-title {
+        width: 100% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    #custom_voucher_price {
+        margin-bottom: 30px !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+    .voucher-product-template .single_add_to_cart_button.button {
+        margin-bottom: 5px !important;
+    }
+}
+.wrap .gift-voucher-settings-container {
+    border: none !important;
+}
+h1.voucher-settings-title {
+    margin-bottom: 0px !important;
+    margin-left: 30px !important;
+}
+.woo-checkout-coupon.voucher-redeem {
+    display: flex !important;
+    align-items: center !important;
+    padding: 10px !important;
+    margin-bottom: 60px !important;
+}
+.woocommerce-form-coupon-toggle {
+    width: 320px !important;
+}
+.checkout_voucher.woocommerce-form-voucher {
+    width: 80% !important;
+    margin-right: 20px;
+    position: relative;
+    left: 40px;
+}
+.woo-checkout-coupon.voucher-redeem .ea-coupon-icon {
+    top: 42px !important;
+}
+.ast-grid-common-col.product_cat-custom-voucher.product_cat-vouchers.product_tag-custom-amount {
+    display: none !important;
+}
+.voucher-shop
+    .ast-grid-common-col.product_cat-custom-voucher.product_cat-vouchers.product_tag-custom-amount {
+    display: block !important;
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+    .checkout_voucher.woocommerce-form-voucher {
+        width: 70% !important;
+        margin-right: 0px;
+        position: relative;
+        left: 0px;
+    }
+    p.voucher-submit.form-row.form-row-last {
+        width: 180px !important;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1279px) {
+    .checkout_voucher.woocommerce-form-voucher {
+        width: 100% !important;
+        margin-right: 0px;
+        position: relative;
+        left: 0px;
+    }
+    .woocommerce-form-coupon-toggle {
+        width: 47% !important;
+    }
+    p.voucher-submit.form-row.form-row-last {
+        width: 180px !important;
+    }
+    .checkout_voucher.woocommerce-form-voucher .form-row.form-row-first {
+        width: 68% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .woo-checkout-coupon.voucher-redeem {
+        flex-direction: column;
+    }
+    .eael-woo-checkout .woocommerce .woo-checkout-coupon .ea-coupon-icon {
+        position: initial !important;
+    }
+    .checkout_voucher.woocommerce-form-voucher {
+        width: 94% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        position: relative;
+        left: 0 !important;
+    }
+    .voucher-submit.form-row.form-row-last {
+        width: auto !important;
+    }
+    .checkout_voucher.woocommerce-form-voucher .form-row.form-row-first {
+        width: 73% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .woo-checkout-coupon.voucher-redeem {
+        flex-direction: column;
+    }
+    .eael-woo-checkout .woocommerce .woo-checkout-coupon .ea-coupon-icon {
+        position: initial !important;
+    }
+    .checkout_voucher.woocommerce-form-voucher {
+        width: 94% !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        position: relative;
+        left: 0 !important;
+    }
+    .voucher-submit.form-row.form-row-last {
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+    }
+    .checkout_voucher.woocommerce-form-voucher .form-row.form-row-first {
+        width: 100% !important;
+    }
+}
+.voucher-stats {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    margin-bottom: 15px !important;
+}
+.success-voucher-popup h2#swal2-title.swal2-title {
+    font-size: 20px !important;
+}
+.success-voucher-popup .swal2-styled.swal2-confirm {
+    border: 2px solid #4d776d !important;
+    border-radius: 2px !important;
+    background: initial;
+    background-color: #4d776d !important;
+    color: #ffffff !important;
+    font-size: 1em;
+    font-weight: 600;
+}
+.remove-voucher {
+    font-weight: 700;
+    font-size: 14px;
+    color: #4d776d !important;
+}
